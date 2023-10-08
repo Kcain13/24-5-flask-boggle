@@ -1,0 +1,90 @@
+body {
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/a/cc/acc04bb4-6541-11ea-808e-c3b75e68a2ef/5d14cdb92cf25.image.jpg?resize=1763%2C1175);
+}
+
+.board {
+  /* border: solid 1px blue; */
+  padding-top: 1.5%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.board td {
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+
+}
+
+td {
+  border: solid 1px black;
+  color: white;
+}
+
+p {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg.ok {
+  color: white;
+  background-color: green;
+}
+
+.msg.err {
+  color: white;
+  background-color: tomato;
+}
+
+form.add-word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Word Input Styles */
+.word-input {
+  width: 80%;
+  /* Adjust the width as needed */
+  padding: 0.5em;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Timer Styles */
+.timer {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Score Styles */
+.score {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Words List Styles */
+.words-list {
+  list-style: none;
+  padding: 0;
+}
+
+.words-list li {
+  font-size: 1.2em;
+}
